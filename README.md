@@ -16,8 +16,5 @@ Note: make sure you have a web cam in your PC or Laptop.
 Thank You,
 
 Ahmad Kaifi
-
 Hassan Althobaiti
-
 Zubir Rentiya
-
