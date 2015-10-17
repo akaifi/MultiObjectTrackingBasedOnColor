@@ -18,3 +18,6 @@ Thank You,
 Ahmad Kaifi,     
 Hassan Althobaiti,     
 Zubir Rentiya
+
+
+ [![Throughput Graph](https://graphs.waffle.io/akaifi/MultiObjectTrackingBasedOnColor/throughput.svg)](https://waffle.io/akaifi/MultiObjectTrackingBasedOnColor/metrics) 
