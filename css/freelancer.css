@@ -4,6 +4,11 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+ .navbar.navbar-default.navbar-fixed-top {
+     background-color: transparent;
+ }
+
+
 body {
     overflow-x: hidden;
 }
@@ -23,6 +28,10 @@ a:active,
 a.active {
     outline: 0;
     color: #18bc9c;
+}
+
+.navbar-fixed-top.navbar-default .navbar-nav > li > a {
+    color: #333333;
 }
 
 h1,
@@ -79,10 +88,14 @@ hr.star-primary:after {
     margin: 0 auto;
 }
 
+.navbar-default .navbar-nav .navbar-fixed-top> li > a {
+    color: #222222;
+}
+
 header {
     text-align: center;
     color: #fff;
-    background: #faaf32;
+    background: #f2f2f2;
 }
 
 header .container {
@@ -106,6 +119,7 @@ header .intro-text .name {
 header .intro-text .skills {
     font-size: 1.25em;
     font-weight: 300;
+    color: #222222;
 }
 
 @media(min-width:768px) {
@@ -120,15 +134,18 @@ header .intro-text .skills {
 
     header .intro-text .skills {
         font-size: 1.75em;
+        color: #222222;
     }
 }
 
 @media(min-width:768px) {
+
     .navbar-fixed-top {
         padding: 25px 0;
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
+
     }
 
     .navbar-fixed-top .navbar-brand {
@@ -145,15 +162,43 @@ header .intro-text .skills {
 
     .navbar-fixed-top.navbar-shrink {
         padding: 10px 0;
+        /*background-color: #f2f2f2;*/
     }
 
     .navbar-fixed-top.navbar-shrink .navbar-brand {
         font-size: 1.5em;
+        /*background-color: #f2f2f2;*/
     }
 
     .navbar-fixed-top.navbar-shrink .navbar-brand-img {
         max-width: 50px;
         margin-top: -15px;
+        background-color: #f2f2f2;
+    }
+    .navbar-fixed-top.navbar-shrink .nav {
+      /*background-color: #f2f2f2;*/
+    }
+    /*.navbar-fixed-top.navbar-shrink {
+      background-color: #f2f2f2;
+    }*/
+    /*.navbar-fixed-top.navbar-shrink .navbar-header {
+      background-color: #f2f2f2;
+    }*/
+    /*.navbar-fixed-top.navbar-shrink .navbar-nav {
+      background-color: #f2f2f2;
+    }*/
+    /*.navbar-fixed-top.navbar-shrink .navbar-collapse {
+      background-color: #f2f2f2;
+    }*/
+    nav.navbar.navbar-default.navbar-fixed-top.navbar-shrink {
+      background-color: #f2f2f2;
+      color: #222222;
+    }
+    /*nav.navbar-nav {
+      background-color: #222222;
+    }*/
+    .navbar-fixed-top.navbar-default .navbar-brand  {
+      color: #222222;
     }
 }
 
@@ -178,6 +223,7 @@ header .intro-text .skills {
 .navbar-default,
 .navbar-inverse {
     border: 0;
+    background-color: rgba(#ffffff, 0);
 }
 
 section {
@@ -192,6 +238,10 @@ section h2 {
 section.success {
     color: #fff;
     background: #be284b;
+}
+
+.navbar-fixed-top.navbar-default:hover .navbar-brand {
+  color: #be2828;
 }
 
 section.success a,
@@ -215,6 +265,41 @@ section.success a.active {
         max-width: 50px;
         margin-top: -15px;
     }
+    /*.navbar-header {
+      background-color: #f2f2f2;
+    }*/
+    .navbar-fixed-top.navbar-collapse {
+      background-color: #f2f2f2;
+    }
+    .navbar-fixed-bottom.navbar-collapse {
+      background-color: #222222;
+    }
+    .navbar-fixed-top.navbar-header {
+      background-color: #f2f2f2;
+    }
+    .navbar-fixed-bottom {
+      background-color: #222222;
+    }
+    .navbar-fixed-top.navbar-default .navbar-brand  {
+      color: #222222;
+    }
+    nav.navbar.navbar-default.navbar-fixed-top {
+      background-color: #f2f2f2;
+      color: #222222;
+    }
+
+}
+
+.navbar-fixed-top.navbar-default .navbar-nav>li>a:hover, .navbar-fixed-top.navbar-default .navbar-nav>li>a:focus {
+    color: #1131d7;
+  }
+
+  .navbar-fixed-top.navbar-default .navbar-nav>.active>a, .navbar-fixed-top.navbar-default .navbar-nav>.active>a:hover, .navbar-fixed-top.navbar-default .navbar-nav>.active>a:focus {
+      background-color: #f6bc0e;
+  }
+
+#projects{
+  background-color: #f2f2f2;
 }
 
 #projects .projects-item {
@@ -474,4 +559,22 @@ footer .footer-below {
 .projects-modal .modal-backdrop {
     display: none;
     opacity: 0;
+}
+
+.navbar-default .navbar-toggle{
+  border-color: #be284b;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus{
+  background-color: #be284b;
+}
+
+.navbar-fixed-top.navbar-default .navbar-toggle{
+  border-color: #f6bc0e;
+}
+
+.navbar-fixed-top.navbar-default .navbar-toggle:hover,
+.navbar-fixed-top.navbar-default .navbar-toggle:focus{
+  background-color: #f6bc0e;
 }
