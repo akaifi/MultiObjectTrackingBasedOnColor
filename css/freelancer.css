@@ -27,7 +27,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #18bc9c;
+    color: #414141;
 }
 
 .navbar-fixed-top.navbar-default .navbar-nav > li > a {
@@ -76,11 +76,11 @@ hr.star-light:after {
 }
 
 hr.star-primary {
-    border-color: #2c3e50;
+    border-color: #414141;
 }
 
 hr.star-primary:after {
-    color: #2c3e50;
+    color: #414141;
     background-color: #fff;
 }
 
@@ -250,7 +250,7 @@ section.success a:focus,
 section.success a:active,
 section.success a.active {
     outline: 0;
-    color: #2c3e50;
+    color: #414141;
 }
 
 @media(max-width:767px) {
@@ -294,9 +294,9 @@ section.success a.active {
     color: #1131d7;
   }
 
-  .navbar-fixed-top.navbar-default .navbar-nav>.active>a, .navbar-fixed-top.navbar-default .navbar-nav>.active>a:hover, .navbar-fixed-top.navbar-default .navbar-nav>.active>a:focus {
-      background-color: #f6bc0e;
-  }
+.navbar-fixed-top.navbar-default .navbar-nav>.active>a, .navbar-fixed-top.navbar-default .navbar-nav>.active>a:hover, .navbar-fixed-top.navbar-default .navbar-nav>.active>a:focus {
+    background-color: #f6bc0e;
+}
 
 #projects{
   background-color: #f2f2f2;
@@ -377,7 +377,7 @@ section.success a.active {
 .btn-outline:active,
 .btn-outline.active {
     border: solid 2px #fff;
-    color: #18bc9c;
+    color: #414141;
     background: #fff;
 }
 
@@ -430,7 +430,7 @@ section.success a.active {
 }
 
 .floating-label-form-group-with-focus label {
-    color: #18bc9c;
+    color: #414141;
 }
 
 form .row:first-child .floating-label-form-group {
@@ -540,7 +540,7 @@ footer .footer-below {
     width: 1px;
     height: 75px;
     margin-left: 35px;
-    background-color: #2c3e50;
+    background-color: #414141;
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
@@ -550,7 +550,7 @@ footer .footer-below {
     z-index: 1052;
     width: 1px;
     height: 75px;
-    background-color: #2c3e50;
+    background-color: #414141;
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
@@ -577,4 +577,58 @@ footer .footer-below {
 .navbar-fixed-top.navbar-default .navbar-toggle:hover,
 .navbar-fixed-top.navbar-default .navbar-toggle:focus{
   background-color: #f6bc0e;
+}
+#github-repo{
+  background-color: #222222;
+}
+#github-repo a {
+  font-size: 70px;
+  text-align: center;
+  text-decoration: none;
+  color: #f2f2f2;
+  text-shadow: 0.5px 0.5px 1px #f6bc0e;
+}
+#github-repo a:hover {
+  color: #f6bc0e;
+}
+#github-repo .row {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.col-md-6 .fa-archive {
+  text-shadow: 0.5px 0.5px 1px #be2828;
+}
+.col-md-6 .fa-archive:hover:before{
+  content: "\f063";
+  text-shadow: 0.7px 3px 1px #f6bc0e;
+}
+.col-md-6 a:hover {
+  color: #1131d7;
+  text-decoration: none;
+}
+/*.col-md-6 .fa-circle:hover:before{
+  content: "\f10c";
+  color: #1131d7;
+}*/
+span a {
+  color: #be2828;
+}
+span a:hover {
+  text-decoration: none;
+  color: #1131D7;
+}
+span a:focus,
+span a:active,
+span a.active {
+  text-decoration: none;
+  color: #f6bc0e;
+}
+.rainboll{
+  padding-top: 1px;
+  padding-bottom: 1px;
+  background-color: #F07575; /* fallback color if gradients are not supported */
+  background-image: -webkit-linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet); /* For Chrome 25 and Safari 6, iOS 6.1, Android 4.3 */
+  background-image:    -moz-linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet); /* For Firefox (3.6 to 15) */
+  background-image:      -o-linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet); /* For old Opera (11.1 to 12.0) */
+  background-image:         linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet); /* Standard syntax; must be last */
 }
