@@ -99,6 +99,16 @@ void drawObject(vector<Object> theObjects,Mat &frame, Mat &temp, vector< vector<
 	}
 }
 
+void drawObject(vector<Object> theObjects,Mat &frame){
+
+	for(int i =0; i<theObjects.size(); i++){
+
+	cv::circle(frame,cv::Point(theObjects.at(i).getXPos(),theObjects.at(i).getYPos()),10,cv::Scalar(0,0,255));
+	cv::putText(frame,intToString(theObjects.at(i).getXPos())+ " , " + intToString(theObjects.at(i).getYPos()),cv::Point(theObjects.at(i).getXPos(),theObjects.at(i).getYPos()+20),1,1,Scalar(0,255,0));
+	cv::putText(frame,theObjects.at(i).getType(),cv::Point(theObjects.at(i).getXPos(),theObjects.at(i).getYPos()-30),1,2,theObjects.at(i).getColour());
+	}
+}
+
 void morphOps(Mat &thresh){
 
 	//create structuring element that will be used to "dilate" and "erode" image.
