@@ -12,6 +12,7 @@
 
 Note: make sure you have a web cam in your PC or Laptop.
 
+On Linux you will need to have opencv-devel installed and then run make.
 
 Thank You,
 
