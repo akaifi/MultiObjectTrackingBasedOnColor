@@ -50,7 +50,7 @@ int lowThreshold;
 int const max_lowThreshold = 100;
 int ratio = 3;
 int kernel_size = 3;
-char* window_name = "Edge Map";
+const char* window_name = "Edge Map";
 
 void on_trackbar( int, void* )
 {//This function gets called whenever a
