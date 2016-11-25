@@ -1,6 +1,6 @@
 # MultiObjectTrackingBasedOnColor
-###Track multiple objects based on their color using OpenCV
 [![ghit.me](https://ghit.me/badge.svg?repo=akaifi/MultiObjectTrackingBasedOnColor)](https://ghit.me/repo/akaifi/MultiObjectTrackingBasedOnColor)
+###Track multiple objects based on their color using OpenCV
 ---
 
 ####In order to run the application, you need to do the follwing steps:
